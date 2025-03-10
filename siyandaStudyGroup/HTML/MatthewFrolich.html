@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../Content/NewStyle.css" rel="stylesheet" />
+    <style>
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            background-color: #333;
+            height: 50px;
+            flex-wrap: wrap; /* Allow items to wrap to the next line when space is insufficient */
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+            nav ul li {
+                margin-right: 5px;
+            }
+
+                nav ul li a {
+                    display: block;
+                    padding: 15px 20px;
+                    text-decoration: none;
+                    color: white;
+                    background-color: #444;
+                    border-radius: 5px;
+                }
+
+
+                    nav ul li a:hover {
+                        background-color: #add8e6; /* Light blue background on hover */
+                        color: black;
+                    }
+
+
+        .active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+
+        button {
+            padding: 15px 20px;
+            background-color: #444;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            height: 50px;
+        }
+
+            button:hover {
+                background-color: #add8e6;
+                color: black;
+            }
+
+
+        .go-back-btn {
+            margin-left: 10px;
+            flex-grow: 1;
+            border-radius: 5px;
+            margin-right: 0;
+        }
+    </style>
+
+    <style>
+        img {
+            float: left;
+            border: 1px dotted black;
+            margin: 0px 0px 15px 20px;
+        }
+    </style>
+
+    <style>
+        img:hover {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+    </style>
+
+    <style>
+        .imgHobby {
+            float: right;
+            border: 1px dotted black;
+            margin: 0px 0px 15px 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Matthew Frolich</h1>
+
+    <nav class="navbar" id="mynavbar">
+        <ul>
+            <li><a href="/Home/Index">Main</a></li>
+            <li><a href="/Student/ListStudent">List</a></li>
+            <li><a href="SiyandaTwala.html">Siyanda</a></li>
+            <li><a href="KeshavSingh.html">Keshav</a></li>
+            <li><a href="NikhilSunker.html">Nikhil</a></li>
+            <li><a href="MatthewFrolich.html">Matthew</a></li>
+            <li><a href="Aman.html">Aman</a></li>
+            <button onclick="history.back()">Go Back</button>
+
+        </ul>
+
+
+    </nav>
+
+    <div class="Biography">
+        
+
+        <h2>Biography and background</h2>
+
+        <p>
+            <img src="Images/matthew pic.jpeg" width="200" height="240">
+            Matthew was born and raised in Johannesburg.
+            <br />
+            He is studying BIT Information Systems.
+            <br />
+            He did IT in highschool and fell in love with it, studying Information Systems became a natural choice
+            <br />
+            He took data science as the elective stream
+
+
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+    </div>
+   
+    
+
+    <div class="Hobbies">
+        <h2>Hobbies</h2>
+
+        <p>
+            <img src="Images/rugby.jpg" width="200" height="240" class="imgHobby">
+            Matthew like playing rugby and golf.
+            <br />
+            He started playing rugby in highschool and was a captain of his school team,
+            which gave him the opportunity to play at a competitive level.
+            <br />
+            Rugby has always been a sport he’s passionate about, enjoying the physicality,
+            teamwork, and fast-paced nature of the game.
+            <br />
+            In addition to rugby, Matthew picked up golf, which he now enjoys during his spare time to calm down and relax
+            <br />
+            Golf has become a great way for him to unwind, offering a peaceful escape from the fast-paced world. The sport allows him to focus on strategy and precision while appreciating the tranquility of the outdoors,
+            creating a perfect balance to the intensity of rugby.
+
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+
+   
+    
+
+    <div class="Modules">
+        
+
+        <h2>Modules</h2>
+
+        <table>
+            <tr>
+                <th>Modules Semester 1</th>
+                <th>Modules Semester 2</th>
+            </tr>
+
+
+            <tr>
+                <td>INF 272</td>
+                <td>INF 272</td>
+            </tr>
+
+            <tr>
+                <td>INF 271</td>
+                <td>INF 271</td>
+            </tr>
+
+            <tr>
+                <td>INF 214</td>
+                <td>INF 225</td>
+            </tr>
+            <tr>
+                <td>FIL 251</td>
+                <td>inf 261</td>
+            </tr>
+            <tr>
+                <td>stk 210</td>
+                <td>stk 220</td>
+            </tr>
+
+            <tr>
+                <td>jcp 201</td>
+                <td>jcp 201</td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>

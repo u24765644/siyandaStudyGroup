@@ -12,11 +12,11 @@ namespace siyandaStudyGroup.Controllers
         public ActionResult ListStudent()
         {
             List<Models.StudentModel> student = new List<Models.StudentModel>();
-            student.Add(new Models.StudentModel { StudentNumber = "u24765644", Name = "Siyanda", Surname = "Twala", EmailAddress = "siyanda.twala@tuks.co.za" });
-            student.Add(new Models.StudentModel { StudentNumber = "u24765747", Name = "Aiden", Surname = "Brooks", EmailAddress = "aiden.brooks@tuks.co.za" });
-            student.Add(new Models.StudentModel { StudentNumber = "u24765699", Name = "Noah", Surname = "Evans", EmailAddress = "noah.evans@tuks.co.za" });
-            student.Add(new Models.StudentModel { StudentNumber = "u24765740", Name = "Tshepho", Surname = "Ledwaba", EmailAddress = "tshepho.ledwaba@tuks.co.za" });
-            student.Add(new Models.StudentModel { StudentNumber = "u24765546", Name = "Lucas", Surname = "Gray", EmailAddress = "lucas.gray@tuks.co.za" });
+            student.Add(new Models.StudentModel { StudentNumber = "u24765644", Name = "Siyanda", Surname = "Twala", EmailAddress = "siyanda.twala@tuks.co.za", myLink = "~/HTML/SiyandaTwala.html" });
+            student.Add(new Models.StudentModel { StudentNumber = "u24765747", Name = "Matthew", Surname = "Frolich", EmailAddress = "matthew.frolich@tuks.co.za", myLink = "~/HTML/MatthewFrolich.html" });
+            student.Add(new Models.StudentModel { StudentNumber = "u24765699", Name = "Nikhil", Surname = "Sunker", EmailAddress = "nikhil.sunker@tuks.co.za", myLink = "~/HTML/NikhilSunker.html" });
+            student.Add(new Models.StudentModel { StudentNumber = "u24765740", Name = "Aman", Surname = "Singh", EmailAddress = "aman.singh@tuks.co.za", myLink = "~/HTML/Aman.html" });
+            student.Add(new Models.StudentModel { StudentNumber = "u24765546", Name = "Keshav", Surname = "Singh", EmailAddress = "keshav.singh@tuks.co.za", myLink ="~/HTML/KeshavSingh.html" });
             return View(student);
         }
     }

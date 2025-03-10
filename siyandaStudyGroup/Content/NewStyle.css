@@ -1,0 +1,30 @@
+﻿body {
+    background-color: lightgray
+
+}
+
+h2{
+    font-size: 24px;
+
+}
+
+.Biography {
+    padding: 40px;
+    border: 1px solid #808080ff;
+    margin: 20px 0;
+    background-color:darkgrey;
+}
+
+.Hobbies {
+    padding: 40px;
+    border: 1px solid #808080ff;
+    margin: 20px 0;
+    background-color: darkgrey;
+}
+
+.Modules {
+    padding: 40px;
+    border: 1px solid #808080ff;
+    margin: 20px 0;
+    background-color: darkgrey;
+}

@@ -21,5 +21,9 @@ namespace siyandaStudyGroup.Models
         [Display(Name = "Email Address")]
         public string EmailAddress { get; set; }
 
+        [Display (Name ="Link to personal page")]
+        public string myLink { get; set; }
+
+        
     }
 }
